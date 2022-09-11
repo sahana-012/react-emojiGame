@@ -1,0 +1,35 @@
+/* Write your code here. */
+.app-container {
+  background-image: linear-gradient(to bottom, #6a59ff, #fbc7d4);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-size: cover;
+  /* padding-left: 120px; */
+  font-family: 'Roboto';
+  background-size: cover;
+  margin: 0;
+  width: 100vw;
+  height: 100%;
+}
+
+.emoji-list-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  /* height: 100%; */
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+@media screen and (max-width: 576px) {
+  .app-container {
+    padding-bottom: 20px;
+  }
+  .emoji-list-container {
+    width: 100%;
+  }
+}

@@ -1,0 +1,97 @@
+/* Write your code here. */
+.image-background {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff33;
+  border: 3px solid #ffffff33;
+  margin: 120px;
+  padding: 30px;
+
+  border-radius: 20px;
+}
+
+.score-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 50%;
+  padding: 10px;
+}
+
+.main-heading {
+  color: white;
+  font-size: 70px;
+  align-self: center;
+}
+
+.sub-heading {
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  align-self: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.score {
+  color: #6a59ff;
+  font-size: 50px;
+  align-self: center;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.play-again-button {
+  background-color: #ffce27;
+  color: #3d3d3d;
+  font-size: 17px;
+  border-style: none;
+  border-radius: 20px;
+  outline: none;
+  padding: 18px;
+  font-weight: bold;
+  align-self: center;
+  margin-top: 0px;
+  cursor: pointer;
+  font-family: 'Roboto';
+  align-items: center;
+}
+
+.image {
+  width: 45%;
+  height: 90%;
+  align-self: center;
+}
+
+@media screen and (max-width: 576px) {
+  .image-background {
+    width: 74%;
+    flex-direction: column;
+    height: 100%;
+    margin: 0px;
+    margin-top: 20px;
+  }
+  .score-container {
+    order: 1;
+    width: 100%;
+  }
+  .image {
+    order: 0;
+    width: 100%;
+  }
+  .main-heading {
+    font-size: 30px;
+  }
+  .sub-heading {
+    font-size: 20px;
+  }
+  .score {
+    font-size: 22px;
+  }
+}
